@@ -1,0 +1,21 @@
+{
+ "config": {
+  "m": 1000,
+  "steps": 100,
+  "n_ref": 1000,
+  "chunk": 1000,
+  "hidden": 100,
+  "layers": 4,
+  "epochs": 5000,
+  "lr": 0.005,
+  "batch": null
+ },
+ "label_sec": 0.14110898971557617,
+ "train_sec": 13.477600812911987,
+ "sample_100k_sec": 0.10202564700000494,
+ "cross_entropy": {
+  "Ground truth": 4.0794324435009885,
+  "Labeled training data": 4.0961121240927385,
+  "Generated samples": 4.086192435310941
+ }
+}

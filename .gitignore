@@ -1,0 +1,17 @@
+# Python
+.venv/
+__pycache__/
+
+# UCI datasets (1.8 GB): re-download with the commands in README.md
+data/
+
+# Regenerable: ODE labels (up to 66 MB each, train.py recreates them) and logs
+runs/*/labels.pt
+*.log
+
+# App outputs
+synthetic.csv
+balanced.csv
+
+# The paper is the publisher's copyrighted PDF: cite it rather than redistribute it
+*.pdf
